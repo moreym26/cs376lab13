@@ -21,9 +21,13 @@
  */
 int main(int argc, const char * argv[])
 {
+if (isdigit(argc)) {
   robotPrintAscii();
-  dalekPrintAscii();
+  }
+else{
+robotPrintAscii();
+dalekPrintAscii();
   robotPrintMessage();
-
+}
   return 0;
 }
